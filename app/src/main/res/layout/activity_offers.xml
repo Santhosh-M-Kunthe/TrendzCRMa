@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    tools:context="in.siteurl.www.trendzcrm.Offers">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="63dp"
+                android:textSize="27dp"
+                android:id="@+id/offerName"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Offer name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="108dp"
+                android:id="@+id/offerDesc"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:text="Offer description"
+                android:layout_marginStart="45dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginEnd="54dp"
+                android:textSize="18dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="54dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/offerDesc"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:id="@+id/oggerImageview"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/oggerImageview"
+                android:text="Yes, I am interested"
+                android:textAllCaps="false"
+                android:layout_margin="18dp"
+                android:onClick="finishh"
+                android:background="@drawable/neatlinebackground"
+                android:padding="9dp"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

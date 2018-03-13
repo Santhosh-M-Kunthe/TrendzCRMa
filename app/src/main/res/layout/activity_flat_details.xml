@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4b4b4d"
+    tools:context="in.siteurl.www.trendzcrm.FlatDetails">
+
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/centarpeace"/>
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="31.5dp"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:text="Unit name"
+        android:layout_toStartOf="@+id/centarpeace"
+        android:layout_toLeftOf="@+id/centarpeace"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/unitname"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@+id/centarpeace"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/centarpeace" />
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="31.5dp"
+        android:layout_below="@+id/unitname"
+        android:background="#ffffff"/>
+
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_toStartOf="@+id/centarpeace"
+        android:layout_toLeftOf="@+id/centarpeace"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unitname"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Value"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/value"
+        android:layout_below="@+id/unitname"
+        android:layout_toEndOf="@+id/centarpeace"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/centarpeace" />
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="31.5dp"
+        android:layout_below="@+id/value"
+        android:background="#ffffff"/>
+
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_toStartOf="@+id/centarpeace"
+        android:layout_toLeftOf="@+id/centarpeace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/value"
+        android:text="Size"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/size"
+        android:layout_below="@+id/value"
+        android:layout_toEndOf="@+id/centarpeace"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/centarpeace" />
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="31.5dp"
+        android:layout_below="@+id/size"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_toStartOf="@+id/centarpeace"
+        android:layout_toLeftOf="@+id/centarpeace"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/size"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Sale value"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/salevalue"
+        android:layout_below="@+id/size"
+        android:layout_toEndOf="@+id/centarpeace"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/centarpeace" />
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="31.5dp"
+        android:layout_below="@+id/salevalue"
+        android:background="#ffffff"/>
+
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_toStartOf="@+id/centarpeace"
+        android:layout_toLeftOf="@+id/centarpeace"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salevalue"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Balance amount"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/balamnt"
+        android:layout_below="@+id/salevalue"
+        android:layout_toEndOf="@+id/centarpeace"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/centarpeace" />
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="31.5dp"
+        android:layout_below="@+id/balamnt"
+        android:background="#ffffff"/>
+
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/balamnt"
+        android:text="Recieved amount"
+        android:layout_toStartOf="@+id/centarpeace"
+        android:layout_toLeftOf="@+id/centarpeace"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/recamnt"
+        android:layout_below="@+id/balamnt"
+        android:layout_toEndOf="@+id/centarpeace"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/centarpeace" />
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="31.5dp"
+        android:layout_below="@+id/recamnt"
+        android:background="#ffffff"/>
+
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/centarpeace"
+        android:layout_toLeftOf="@+id/centarpeace"
+        android:layout_below="@+id/recamnt"
+        android:text="Floor"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/floor"
+        android:layout_below="@+id/recamnt"
+        android:layout_toEndOf="@+id/centarpeace"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/centarpeace" />
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="31.5dp"
+        android:layout_below="@+id/floor"
+        android:background="#ffffff"/>
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_below="@+id/floor"
+       android:id="@+id/a"
+       android:layout_marginBottom="2.22dp"
+       android:background="#ffffff"
+       android:layout_height="wrap_content">
+       <TextView
+           android:layout_marginBottom="5.22dp"
+           android:padding="2dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:id="@+id/centarpeaceq"/>
+
+       <TextView
+           android:layout_marginBottom="5.22dp"
+           android:padding="2dp"
+           android:layout_toStartOf="@+id/centarpeaceq"
+           android:layout_toLeftOf="@+id/centarpeaceq"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginEnd="12dp"
+           android:layout_marginRight="12dp"
+           android:textColor="@color/colorPrimaryDark"
+           android:text="Block name"
+           android:textSize="18sp"/>
+
+       <TextView
+           android:layout_marginBottom="5.22dp"
+           android:padding="2dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/colorPrimaryDark"
+           android:id="@+id/blckname"
+           android:layout_toEndOf="@+id/centarpeaceq"
+           android:textSize="18dp"
+           android:layout_toRightOf="@+id/centarpeaceq" />
+   </RelativeLayout>
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="31.5dp"
+        android:layout_below="@+id/a"
+        android:background="#ffffff"/>
+
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_below="@+id/a"
+     android:id="@+id/b"
+     android:layout_marginBottom="2.22dp"
+     android:background="#ffffff"
+     android:layout_height="wrap_content">
+
+     <TextView
+         android:layout_marginBottom="5.22dp"
+         android:padding="2dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:id="@+id/centarpeacew"/>
+
+     <TextView
+         android:layout_marginBottom="5.22dp"
+         android:padding="2dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginEnd="12dp"
+         android:layout_marginRight="12dp"
+         android:textColor="@color/colorPrimaryDark"
+         android:text="Project name"
+         android:layout_toStartOf="@+id/centarpeacew"
+         android:layout_toLeftOf="@+id/centarpeacew"
+         android:textSize="18sp"/>
+
+     <TextView
+         android:layout_marginBottom="5.22dp"
+         android:padding="2dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="@color/colorPrimaryDark"
+         android:id="@+id/projname"
+         android:layout_toEndOf="@+id/centarpeacew"
+         android:textSize="18dp"
+         android:layout_toRightOf="@+id/centarpeacew" />
+
+ </RelativeLayout>
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="31.5dp"
+        android:layout_below="@+id/b"
+        android:background="#ffffff"/>
+
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Status name"
+        android:layout_toStartOf="@+id/centarpeace"
+        android:layout_toLeftOf="@+id/centarpeace"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginBottom="5.22dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/sou"
+        android:layout_below="@+id/b"
+        android:layout_toEndOf="@+id/centarpeace"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/centarpeace" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:layout_height="45dp">
+
+        <Button
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:textColor="@color/primaryDarkColor"
+            android:textAllCaps="false"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="9dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/alldocsunit"
+            android:onClick="passFlatDocsToMyDocs"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="9dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All flat docs"
+            android:textColor="#4b4b4d"
+            android:textSize="12dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+        <Button
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/addtickettechsuppotype"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/flattoat"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add enquiry"
+            android:textSize="12dp"
+            android:textColor="#4b4b4d"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="9dp"
+            android:background="@drawable/gobacksimon"
+            android:onClick="finish"
+            android:layout_marginLeft="9dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go back"
+            android:textSize="12dp"
+            android:textColor="#4b4b4d"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>
